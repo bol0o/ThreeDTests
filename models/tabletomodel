@@ -1,0 +1,70 @@
+local models = {
+	--[[modelName = { -- Start your own model here or modify a copy of another model
+		
+	},]]--
+
+	emerald = { -- Emerald
+		{x1 = -0.3, y1 = -0.1, z1 = -0.3, x2 = -0.3, y2 = -0.1, z2 = 0.3, x3 = 0, y3 = 0.3, z3 = 0, c = colors.lime},
+		{x1 = -0.3, y1 = -0.1, z1 = 0.3, x2 = 0.3, y2 = -0.1, z2 = 0.3, x3 = 0, y3 = 0.3, z3 = 0, c = colors.green},
+
+		{x1 = 0.3, y1 = -0.1, z1 = 0.3, x2 = 0.3, y2 = -0.1, z2 = -0.3, x3 = 0, y3 = 0.3, z3 = 0, c = colors.lime},
+		{x1 = 0.3, y1 = -0.1, z1 = -0.3, x2 = -0.3, y2 = -0.1, z2 = -0.3, x3 = 0, y3 = 0.3, z3 = 0, c = colors.green},
+
+		{x1 = -0.3, y1 = -0.1, z1 = -0.3, x2 = 0, y2 = -0.5, z2 = 0, x3 = -0.3, y3 = -0.1, z3 = 0.3, c = colors.green},
+		{x1 = -0.3, y1 = -0.1, z1 = 0.3, x2 = 0, y2 = -0.5, z2 = 0, x3 = 0.3, y3 = -0.1, z3 = 0.3, c = colors.lime},
+		
+		{x1 = 0.3, y1 = -0.1, z1 = 0.3, x2 = 0, y2 = -0.5, z2 = 0, x3 = 0.3, y3 = -0.1, z3 = -0.3, c = colors.green},
+		{x1 = 0.3, y1 = -0.1, z1 = -0.3, x2 = 0, y2 = -0.5, z2 = 0, x3 = -0.3, y3 = -0.1, z3 = -0.3, c = colors.lime},
+	},
+
+	pineapple = { -- Pineapple
+		{x1 = 0, y1 = 0, z1 = 0, x2 = 0.4, y2 = 0.3, z2 = 0.4, x3 = -0.4, y3 = 0.3, z3 = 0.4, c = colors.yellow},
+		{x1 = 0, y1 = 0, z1 = 0, x2 = 0.4, y2 = 0.3, z2 = -0.4, x3 = 0.4, y3 = 0.3, z3 = 0.4, c = colors.orange},
+		{x1 = 0, y1 = 0, z1 = 0, x2 = -0.4, y2 = 0.3, z2 = -0.4, x3 = 0.4, y3 = 0.3, z3 = -0.4, c = colors.yellow},
+		{x1 = 0, y1 = 0, z1 = 0, x2 = -0.4, y2 = 0.3, z2 = 0.4, x3 = -0.4, y3 = 0.3, z3 = -0.4, c = colors.orange},
+
+		{x1 = 0, y1 = 0.8, z1 = 0, x2 = -0.4, y2 = 0.3, z2 = 0.4, x3 = 0.4, y3 = 0.3, z3 = 0.4, c = colors.orange},
+		{x1 = 0, y1 = 0.8, z1 = 0, x2 = 0.4, y2 = 0.3, z2 = 0.4, x3 = 0.4, y3 = 0.3, z3 = -0.4, c = colors.yellow},
+		{x1 = 0, y1 = 0.8, z1 = 0, x2 = 0.4, y2 = 0.3, z2 = -0.4, x3 = -0.4, y3 = 0.3, z3 = -0.4, c = colors.orange},
+		{x1 = 0, y1 = 0.8, z1 = 0, x2 = -0.4, y2 = 0.3, z2 = -0.4, x3 = -0.4, y3 = 0.3, z3 = 0.4, c = colors.yellow},
+
+		{x1 = 0, y1 = 0.8, z1 = 0, x2 = -0.3, y2 = 1, z2 = 0.3, x3 = 0.3, y3 = 1, z3 = 0.3, c = colors.lime, char = string.char(127), charc = colors.green, forceRender = true},
+		{x1 = 0, y1 = 0.8, z1 = 0, x2 = 0.3, y2 = 1, z2 = -0.3, x3 = -0.3, y3 = 1, z3 = -0.3, c = colors.green, char = string.char(127), charc = colors.lime, forceRender = true},
+	},
+
+	spike = { -- Spike
+		{x1 = -0.5, y1 = -0.5, z1 = -0.5, x2 = -0.5, y2 = -0.5, z2 = 0.5, x3 = 0, y3 = 0.5, z3 = 0, c = colors.red},
+		{x1 = -0.5, y1 = -0.5, z1 = 0.5, x2 = 0.5, y2 = -0.5, z2 = 0.5, x3 = 0, y3 = 0.5, z3 = 0, c = colors.orange},
+
+		{x1 = 0.5, y1 = -0.5, z1 = 0.5, x2 = 0.5, y2 = -0.5, z2 = -0.5, x3 = 0, y3 = 0.5, z3 = 0, c = colors.red},
+		{x1 = 0.5, y1 = -0.5, z1 = -0.5, x2 = -0.5, y2 = -0.5, z2 = -0.5, x3 = 0, y3 = 0.5, z3 = 0, c = colors.orange},
+	},
+
+	box = { -- Box
+		{x1 = -0.5, y1 = -0.5, z1 = -0.5, x2 = 0.5, y2 = -0.5, z2 = 0.5, x3 = -0.5, y3 = -0.5, z3 = 0.5, c = colors.red},
+		{x1 = -0.5, y1 = -0.5, z1 = -0.5, x2 = 0.5, y2 = -0.5, z2 = -0.5, x3 = 0.5, y3 = -0.5, z3 = 0.5, c = colors.orange},
+
+		{x1 = -0.5, y1 = 0.5, z1 = -0.5, x2 = -0.5, y2 = 0.5, z2 = 0.5, x3 = 0.5, y3 = 0.5, z3 = 0.5, c = colors.yellow},
+		{x1 = -0.5, y1 = 0.5, z1 = -0.5, x2 = 0.5, y2 = 0.5, z2 = 0.5, x3 = 0.5, y3 = 0.5, z3 = -0.5, c = colors.lime},
+
+		{x1 = -0.5, y1 = -0.5, z1 = -0.5, x2 = -0.5, y2 = -0.5, z2 = 0.5, x3 = -0.5, y3 = 0.5, z3 = 0.5, c = colors.green},
+		{x1 = -0.5, y1 = -0.5, z1 = -0.5, x2 = -0.5, y2 = 0.5, z2 = 0.5, x3 = -0.5, y3 = 0.5, z3 = -0.5, c = colors.cyan},
+
+		{x1 = 0.5, y1 = -0.5, z1 = -0.5, x2 = 0.5, y2 = 0.5, z2 = 0.5, x3 = 0.5, y3 = -0.5, z3 = 0.5, c = colors.blue},
+		{x1 = 0.5, y1 = -0.5, z1 = -0.5, x2 = 0.5, y2 = 0.5, z2 = -0.5, x3 = 0.5, y3 = 0.5, z3 = 0.5, c = colors.lightBlue},
+
+		{x1 = -0.5, y1 = -0.5, z1 = -0.5, x2 = 0.5, y2 = 0.5, z2 = -0.5, x3 = 0.5, y3 = -0.5, z3 = -0.5, c = colors.magenta},
+		{x1 = -0.5, y1 = -0.5, z1 = -0.5, x2 = -0.5, y2 = 0.5, z2 = -0.5, x3 = 0.5, y3 = 0.5, z3 = -0.5, c = colors.purple},
+
+		{x1 = -0.5, y1 = -0.5, z1 = 0.5, x2 = 0.5, y2 = -0.5, z2 = 0.5, x3 = 0.5, y3 = 0.5, z3 = 0.5, c = colors.pink},
+		{x1 = -0.5, y1 = -0.5, z1 = 0.5, x2 = 0.5, y2 = 0.5, z2 = 0.5, x3 = -0.5, y3 = 0.5, z3 = 0.5, c = colors.brown},
+	}
+}
+
+for modelName, model in pairs(models) do
+	local model2 = textutils.serialise(model)
+
+	local file = fs.open("/models/"..modelName, "w") -- Make sure you save the model in the models folder with a new name
+	file.write(model2) --newmodelname
+	file.close()
+end
