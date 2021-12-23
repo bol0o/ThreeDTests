@@ -173,7 +173,7 @@ local function updateGame(time) -- time is the elapsede time in seconds since th
 	totalTime = totalTime + time -- increase the total time that has elapsed
 	for objectNr, object in pairs(objects) do
 		if (object.model == "pineapple") then -- for all pineapples:
-			object.y = math.sin(totalTime*2)/4 -- set their height according to totalTime to make them smoothly bob up and down
+			object.y = math.cos(totalTime*2)/4 -- set their height according to totalTime to make them smoothly bob up and down
 			object.rotationY = object.rotationY + 50*time -- increase their rotation according to the time that has elapsed (50 degrees per second of rotation)
 		end
 	end
