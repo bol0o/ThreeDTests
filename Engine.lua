@@ -17,7 +17,7 @@ local objects = { -- all objects in the game
 	{model = "box", x = 2, y = 0.5, z = 3, solid = true},
 	{model = "box", x = 1, y = 0.5, z = 3, solid = true},
 	{model = "box", x = 1, y = 1.5, z = 3, solid = true},
-	{model = "pineapple", x = 2, y = 0, z = 1, rotationY = 0},
+	{model = "emerald2", x = 2, y = 0, z = 1, rotationY = 0},
 }
 
 local playerX = -3 -- player position
